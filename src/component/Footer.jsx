@@ -2,13 +2,15 @@ import React from 'react'
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { FcAddressBook, FcHome, FcPhone } from "react-icons/fc";
 
+
 const Footer = () => {
   return (
     <div>
     
         <footer className="container text-center text-sm-center bg-light ">
   
-            <section style={{backgroundColor: "#5b77a6"}}  className="row mt-12 d-flex justify-content-center justify-content-sm-between p-4 border-bottom">
+            <section style={{backgroundColor: "#5b77a6"}}  
+            className="row mt-12 d-flex justify-content-center justify-content-sm-between p-3 border-bottom">
     
                 <div  className="col-12 mx-auto mb-md-0 mb-4">
                     <a href="https://es.facebook.com" target="_blank" className="p-4">

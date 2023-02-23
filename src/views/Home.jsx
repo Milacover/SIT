@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.scss';
 import Navbar from '../component/navbar/NavbarComponent'
+import Footer from '../component/Footer';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
     </div>
+    <Footer />
     </>
   )
 }
