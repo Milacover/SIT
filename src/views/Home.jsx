@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import './home.scss';
-import Navbar from '../component/navbar/NavbarComponent';
+import Navbar from '../component/navbar/NavbarComponent'
+import Cards from '../component/Cards'
 import ToggleButton from 'react-bootstrap/ToggleButton';
+
 import { Form, FormControl, Button } from 'react-bootstrap';
 
  
+
+import Footer from '../component/Footer';
 
 const Home = ({checked, setChecked}) => {
   return (
@@ -29,7 +33,11 @@ const Home = ({checked, setChecked}) => {
     
     </div>
 
-    <div className='containerBtt'>
+
+    
+
+    <Cards/>
+<div className='containerBtt'>
 
     <ToggleButton
         className="boutline-primary"
@@ -39,10 +47,17 @@ const Home = ({checked, setChecked}) => {
         checked={checked}
         value="1"
         onChange={(e) => setChecked(e.currentTarget.checked)}
-      >
+    >
         Publicar Anuncio
+
       </ToggleButton>
       </div>
+
+    
+    
+    <Footer/>
+
+
     </>
   )
 }

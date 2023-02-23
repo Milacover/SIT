@@ -1,6 +1,10 @@
 import React from 'react';
+import Navbar from '../component/navbar/NavbarComponent'
 import './detailedView.scss';
-import Navbar from '../component/navbar/NavbarComponent';
+import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
+import { FcLeft } from "react-icons/fc";
+import Footer from '../component/Footer';
 
 const vistaDetallada =[
     {
@@ -28,18 +32,13 @@ const vistaDetallada =[
 
 function DetailedView() {
   return (
-
-    <>
-    <Navbar/>
-    </>
-  )
-}
-
-    <div>
-            <a href="home.jsx">Atras</a>
+    <div className='DetailView'>
+           <Navbar />
+            <Link to='/'><FcLeft></FcLeft></Link>
+            
             { 
                 vistaDetallada.map(vistaDetallada=> (
-                <div  className="card">
+                    <Card>
                     <img src={vistaDetallada.img} className="card-img-top" alt={vistaDetallada.subtitle}></img>
                         <div className="card-body">
                             <h3>{vistaDetallada.subtitle}</h3>
@@ -49,18 +48,16 @@ function DetailedView() {
                             <h4>{vistaDetallada.cobro}</h4>
                             <h4>{vistaDetallada.categoria}</h4>
                         </div>
-                </div>
-        
-
+                    </Card>
+                    
                 ))
-                
             }
         
-        <button><a href="">Contactar con el anunciante</a></button>
-        
+        <button><Link to='/Form' ><p className='contacta'>Contacta</p></Link></button>
+        <Footer />
     </div>
-  )}
 
+  )}
 
 
 export default DetailedView

@@ -2,7 +2,6 @@
  import Home from "../views/Home";
  import DetailedView from "../views/DetailedView";
 
-
  export const router = createBrowserRouter([
     {
         path: "/",
@@ -21,7 +20,6 @@
         ],
     },
 ]);
-
 
 async function fetchServices() {
     const services = await productHandler.loadProducts();

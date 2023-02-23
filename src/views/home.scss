@@ -40,8 +40,13 @@
     font-size: 1rem;
     font-weight: 300;
     margin: 0;
+
 }.btn-check:checked+.btn {
       background-color: $color-btt-blue-ligth;
+
+}.bttBorder {
+  margin-left: 35%;
+    .btn-outline-primary {
       color: $color-btt-blue-ligth;
       border-color: $color-btt-blue-ligth;
       &:hover {
