@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
-import Footer from "../Footer";
-import NavbarComponent from "../navbar/NavbarComponent";
+import Footer from "../component/Footer";
+import NavbarComponent from "../component/navbar/NavbarComponent";
 import './form.scss'
 import { Link } from 'react-router-dom';
 import { FcLeft } from "react-icons/fc";
