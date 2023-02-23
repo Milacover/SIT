@@ -14,9 +14,11 @@ a {
 .DetailView a {
   text-decoration: none;
 }
-.DetailView a .link {
-  color: red;
-  text-decoration: none;
+.DetailView a svg {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .DetailView .card {
   width: 90%;
@@ -43,15 +45,16 @@ a {
 }
 .DetailView button {
   border-radius: 10px;
-  width: 140px;
-  height: 60px;
+  width: 100px;
+  height: 40px;
   align-items: center;
   justify-content: center;
-  margin-left: 120px;
+  margin-left: 140px;
   text-decoration: none;
   background-color: #18D0FD;
+  border-color: white;
 }
 .DetailView button .contacta {
-  text-decoration: none;
+  padding: 5px;
   color: black;
 }/*# sourceMappingURL=detailedView.css.map */

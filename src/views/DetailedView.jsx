@@ -3,6 +3,7 @@ import Navbar from '../component/navbar/NavbarComponent'
 import './detailedView.scss';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
+import { FcLeft } from "react-icons/fc";
 const vistaDetallada =[
     {
         img: 'src/assets/firstView.svg',
@@ -31,7 +32,7 @@ function DetailedView() {
   return (
     <div className='DetailView'>
            <Navbar />
-            <Link to='/'><FontAwesomeIcon icon="fa-regular fa-arrow-left" /></Link>
+            <Link to='/'><FcLeft ></FcLeft></Link>
             
             { 
                 vistaDetallada.map(vistaDetallada=> (
@@ -49,7 +50,7 @@ function DetailedView() {
                 ))
             }
         
-        <button><Link to='/' ><p className='contacta'>contacta con el anunciante</p></Link></button>
+        <button><Link to='/' ><p className='contacta'>Contactar</p></Link></button>
     </div>
 
   )}
