@@ -12,7 +12,7 @@ const Footer = () => {
     
                 <div  className="col-12 mx-auto mb-md-0 mb-4">
                     <a href="https://es.facebook.com" target="_blank" className="p-4">
-                    <img src="./src/assets/facebook.svg" alt="Facebook" width={70}/>
+                    <img src="./src/assets/facebook.svg" alt="Facebook" width={20}/>
                     </a>
                     <a href="https://twitter.com/?lang=ES" target="_blank" className="p-4">
                     <img src="./src/assets/twitter.svg" alt="Twitter" width={20}/>

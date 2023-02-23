@@ -1,16 +1,16 @@
+
 import './App.css'
-// import MyForm from './component/Form'
-import Footer from './component/Footer'
+import Router from './router/Router';
+import './app.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-
-  return (
-    <div className="App">
-      
-    
-      <Footer />
-    </div>
-  )
-}
-
+function App() {  
+  return (   
+     <div className="App">      
+     <Router/>    </div>  
+     
+     )
+    }
+     
 export default App
+

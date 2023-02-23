@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAE8E8;
+  font-family: "Inter";
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.imageAbout {
+  background-image: url(src/assets/slogandos.png);
+  background-position: bottom right;
+  height: 17vh;
+  width: 50vw;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutUsContent {
+  height: 17vh;
+  width: 50vw;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleAbout {
+  color: #243F6E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.titleAds {
+  color: #243F6E;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  height: 10vh;
+  width: 50vw;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan {
+  color: #243F6E;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}/*# sourceMappingURL=home.css.map */

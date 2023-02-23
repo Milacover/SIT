@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './home.scss';
 import Navbar from '../component/navbar/NavbarComponent'
+import Cards from '../component/Cards'
+import ToggleButton from 'react-bootstrap/ToggleButton';
+import Footer from '../component/Footer';
 
 
-const Home = () => {
+
+const Home = ({checked, setChecked}) => {
   return (
     <>
     <Navbar/>
+    
     <div className='aboutUsContent'>
 
       <div className='imageAbout'>
@@ -17,8 +22,28 @@ const Home = () => {
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
     </div>
+
+    <Cards/>
+
+
+    <ToggleButton
+        className="bttBorder"
+        id="toggle-check"
+        type="checkbox"
+        variant="outline-primary"
+        checked={checked}
+        value="1"
+        onChange={(e) => setChecked(e.currentTarget.checked)}
+      >
+        Publicar Anuncio
+      </ToggleButton>
+      <Footer/>
+
     </>
   )
 }
 
-export default Home
+export default () => {
+  const [checked, setChecked] = useState(false);
+  return <Home checked={checked} setChecked={setChecked} />;
+};
