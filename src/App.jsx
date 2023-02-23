@@ -3,6 +3,9 @@ import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
+
+
 function App() {  
   return (   
      <div className="App">      
@@ -12,15 +15,4 @@ function App() {
     }
      
      export default App
-function App() {
-  
-  
 
-  return (
-    <div className="App">
-      <Router/>
-    </div>
-  )
-}
-
-export default App

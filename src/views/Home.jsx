@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import './home.scss';
-<<<<<<< HEAD
-import Navbar from '../component/navbar/NavbarComponent';
+import Navbar from '../component/navbar/NavbarComponent'
+import Cards from '../component/Cards'
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Footer from '../component/Footer';
 
-=======
-import Navbar from '../component/navbar/NavbarComponent'
-import Cards from '../component/Cards'
->>>>>>> card
+>>>>>>>>> Temporary merge branch 2
 
 const Home = ({checked, setChecked}) => {
   return (
@@ -25,7 +22,9 @@ const Home = ({checked, setChecked}) => {
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
     </div>
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
+    <Cards/>
+=========
 
     <ToggleButton
         className="bttBorder"
@@ -39,9 +38,7 @@ const Home = ({checked, setChecked}) => {
         Publicar Anuncio
       </ToggleButton>
       <Footer/>
-=======
-    <Cards/>
->>>>>>> card
+>>>>>>>>> Temporary merge branch 2
     </>
   )
 }
