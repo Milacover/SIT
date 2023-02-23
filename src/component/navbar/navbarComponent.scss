@@ -1,6 +1,10 @@
 @import '/src/app.scss';
 
 .logoBttNavbar{
-    width: 50; 
-    height: 50; 
+    width: 20vw; 
+    height: 8vh; 
+    max-width: 20vw;
+    min-width: 2vw;
+}.navbarContainer{
+    background-color: $color-bg-blue-dark;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './detailedView.scss';
+import Navbar from '../component/navbar/NavbarComponent';
 
 const vistaDetallada =[
     {
@@ -27,6 +28,13 @@ const vistaDetallada =[
 
 function DetailedView() {
   return (
+
+    <>
+    <Navbar/>
+    </>
+  )
+}
+
     <div>
             <a href="home.jsx">Atras</a>
             { 
@@ -52,6 +60,7 @@ function DetailedView() {
         
     </div>
   )}
+
 
 
 export default DetailedView
