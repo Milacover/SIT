@@ -7,6 +7,8 @@ This project is being worked on in the context of a Hackathon over a period of t
 ## ✏️Mockup:
 <img src="https://user-images.githubusercontent.com/113030390/220853472-b0736b0a-e8e0-4c44-b0ff-2ef0a9dafea1.png" width="50%"> 
 
+Figma: https://www.figma.com/file/G3idAHKXWANl2btXqa7wWO/SIT?node-id=0%3A1&t=W6F5inUBluLPPZmn-0
+
 ## 📸Screenshoots:
 
 
@@ -36,17 +38,30 @@ git clone https://github.com/Milacover/SIT
 ```bash
       npm install
 ```
+
+3. Install React Router
 ```bash
-      npm start
+      npm install react-router-dom@6
+```   
+
+4. Install Bootstrap library
+```bash
+       npm add bootstrap 
 ```
 
-3. Activate the server and keep this terminal open
+5. Install React Icons
+```bash
+      npm i react-icons
+```
+
+6. Activate the server and keep this terminal open
 ```bash
       npm run dev
 ```   
 
 
 ## 📚Methodology:
+
 - Methodology Agile with Scrum.
 - Mob Programming.
 - Pair Programming
@@ -54,6 +69,7 @@ git clone https://github.com/Milacover/SIT
 
 ## 🧪Next Steps:
 
--
--
--
+- Develop a real backend
+- Create logging and different types of users 
+- Add notifications and favorites
+- Tests
