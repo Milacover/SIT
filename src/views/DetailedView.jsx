@@ -1,6 +1,8 @@
 import React from 'react';
+import Navbar from '../component/navbar/NavbarComponent'
 import './detailedView.scss';
-
+import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 const vistaDetallada =[
     {
         img: 'src/assets/firstView.svg',
@@ -27,11 +29,13 @@ const vistaDetallada =[
 
 function DetailedView() {
   return (
-    <div>
-            <a href="home.jsx">Atras</a>
+    <div className='DetailView'>
+           <Navbar />
+            <Link to='/'><FontAwesomeIcon icon="fa-regular fa-arrow-left" /></Link>
+            
             { 
                 vistaDetallada.map(vistaDetallada=> (
-                <div  className="card">
+                    <Card>
                     <img src={vistaDetallada.img} className="card-img-top" alt={vistaDetallada.subtitle}></img>
                         <div className="card-body">
                             <h3>{vistaDetallada.subtitle}</h3>
@@ -41,16 +45,13 @@ function DetailedView() {
                             <h4>{vistaDetallada.cobro}</h4>
                             <h4>{vistaDetallada.categoria}</h4>
                         </div>
-                </div>
-        
-
+                    </Card>
                 ))
-                
             }
         
-        <button><a href="">Contactar con el anunciante</a></button>
-        
+        <button><Link to='/' ><p className='contacta'>contacta con el anunciante</p></Link></button>
     </div>
+
   )}
 
 

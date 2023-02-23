@@ -4,12 +4,12 @@ import App from './App'
 import './app.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <DetailedView />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
  
 

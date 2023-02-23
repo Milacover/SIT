@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAE8E8;
+  font-family: "Inter";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.DetailView a {
+  text-decoration: none;
+}
+.DetailView a .link {
+  color: red;
+  text-decoration: none;
+}
+.DetailView .card {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.DetailView .card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #5B77A6;
+  color: white;
+  width: 100%;
+}
+.DetailView .card .card-footer h4 {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+.DetailView button {
+  border-radius: 10px;
+  width: 140px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  text-decoration: none;
+  background-color: #18D0FD;
+}
+.DetailView button .contacta {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=detailedView.css.map */
