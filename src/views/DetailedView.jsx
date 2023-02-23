@@ -4,6 +4,8 @@ import './detailedView.scss';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import { FcLeft } from "react-icons/fc";
+
+
 const vistaDetallada =[
     {
         img: 'src/assets/firstView.svg',
@@ -30,10 +32,11 @@ const vistaDetallada =[
 
 function DetailedView() {
   return (
+
     <div className='DetailView'>
            <Navbar />
-            <Link to='/'><FcLeft ></FcLeft></Link>
-            
+            <Link to='/'><FcLeft ></FcLeft></Link>            
+
             { 
                 vistaDetallada.map(vistaDetallada=> (
                     <Card>
@@ -54,6 +57,7 @@ function DetailedView() {
     </div>
 
   )}
+
 
 
 export default DetailedView

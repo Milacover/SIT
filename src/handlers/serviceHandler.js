@@ -28,4 +28,5 @@ export const serviceHandler = {
     updateService(newService){
         return serviceService.newService(newService);
     }
+   
 }
