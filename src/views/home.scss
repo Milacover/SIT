@@ -26,10 +26,10 @@
     margin: 0;
 }.titleAds{
     color: $color-font-blue-dark;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin: 0;
-    height: 10vh;
+    height: 6vh;
     width: 50vw;
     min-width: 100vw;
     display: flex;
@@ -61,6 +61,7 @@
         border-color: $color-btt-blue-ligth;
         box-shadow: none;
       }
+    }
       
     }.containerBtt{
     display: flex;

@@ -32,13 +32,7 @@ const Home = ({checked, setChecked}) => {
       <span>Todos los Anuncios</span>
     
     </div>
-
-
-    
-
-    <Cards/>
-<div className='containerBtt'>
-
+    <div className='containerBtt'>
     <ToggleButton
         className="boutline-primary"
         id="toggle-check"
@@ -49,11 +43,13 @@ const Home = ({checked, setChecked}) => {
         onChange={(e) => setChecked(e.currentTarget.checked)}
     >
         Publicar Anuncio
-
       </ToggleButton>
-      </div>
 
+
+      </div>
     
+
+    <Cards/>
     
     <Footer/>
 

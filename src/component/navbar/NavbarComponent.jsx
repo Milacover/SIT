@@ -9,8 +9,6 @@ import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import Footer from '../Footer';
-
 
 const NavbarComponent = () => {
   return (

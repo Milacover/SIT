@@ -1,5 +1,62 @@
 @import '../app.scss';
 
-footer {
-    background-color: red;
-}
+.footerContainer {
+    background-color: $color-btt-blue-medium;
+    color: $color-font-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 21vh;
+    margin: 0;
+  
+ 
+  
+  
+  
+   
+  
+    
+
+    
+  }.footerContainer__section2__icons{
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+    background-color: $color-font-white;
+  }.footerContainer__section3{
+    height: 1vh;
+
+  }.footerContainer__section1__info{
+    height: 8vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }.footerContainer__section1__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+  }.footerContainer__section2{
+    height: 4vh;
+  }.iconSocial{
+    height: 2.5vh;
+    margin: 0;
+  }.footerContainer__section1{
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  
+
+  
+  

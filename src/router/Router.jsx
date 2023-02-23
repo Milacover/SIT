@@ -6,7 +6,7 @@ import DetailedView from '../views/DetailedView';
 import FormAds from '../views/FormAds';
 
 
-import Form from '../component/Form/Form';
+import Form from '../views/Form';
 
 const Router = () => {
   return (
