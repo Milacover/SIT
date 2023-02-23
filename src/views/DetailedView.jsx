@@ -1,5 +1,5 @@
-
-import React from 'react'
+import React from 'react';
+import './detailedView.scss';
 
 const vistaDetallada =[
     {
@@ -51,7 +51,7 @@ function DetailedView() {
         <button><a href="">Contactar con el anunciante</a></button>
         
     </div>
-  )
-}
+  )}
+
 
 export default DetailedView
