@@ -36,27 +36,27 @@ git clone https://github.com/Milacover/SIT
 
 2. Install dependencies
 ```bash
-      npm install
+npm install
 ```
 
 3. Install React Router
 ```bash
-      npm install react-router-dom@6
+npm install react-router-dom@6
 ```   
 
 4. Install Bootstrap library
 ```bash
-       npm add bootstrap 
+npm add bootstrap 
 ```
 
 5. Install React Icons
 ```bash
-      npm i react-icons
+npm i react-icons
 ```
 
 6. Activate the server and keep this terminal open
 ```bash
-      npm run dev
+npm run dev
 ```   
 
 
