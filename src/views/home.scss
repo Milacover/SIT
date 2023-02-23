@@ -40,4 +40,21 @@
     font-size: 1rem;
     font-weight: 300;
     margin: 0;
-}
+}.bttBorder {
+    .btn-outline-primary {
+      color: $color-btt-blue-ligth;
+      border-color: $color-btt-blue-ligth;
+      &:hover {
+        color: white;
+        background-color: $color-btt-blue-ligth;
+        border-color: $color-btt-blue-ligth;
+      }
+      &:active,
+      &:focus {
+        color: white;
+        background-color: $color-btt-blue-ligth;
+        border-color: $color-btt-blue-ligth;
+        box-shadow: none;
+      }
+    }
+  }

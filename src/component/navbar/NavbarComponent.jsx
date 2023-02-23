@@ -9,16 +9,14 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavbarComponent = () => {
   return (
     <>
-      <Navbar bg="dark">
+      <Navbar className='navbarContainer'>
         <Container>
           <Navbar.Brand href="#home">
             <Link to='/'>
             <img
               src={Logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              className="logoBttNavbar"
+              alt="Logo"
             />
             </Link>
           </Navbar.Brand>
