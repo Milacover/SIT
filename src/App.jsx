@@ -1,10 +1,8 @@
+
+import './App.css'
 import Router from './router/Router';
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
-
 
 function App() {  
   return (   
@@ -14,5 +12,5 @@ function App() {
      )
     }
      
-     export default App
+export default App
 
