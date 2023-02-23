@@ -1,6 +1,9 @@
 import React from "react";
+import './cards.scss';
+import { Card } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
-const cardsReducidas=[
+const cardsReduce=[
     {
         img: 'src/assets/firstView.svg',
         subtitle: 'Front-End Developer (React)',
@@ -22,30 +25,32 @@ const cardsReducidas=[
 ]
 
 
-const Card = () =>{
+const Cards = () =>{
 
     return (
    
 
-<div>
+<div className="setCards">
+    <Link to='/DetailedView'>
             {
-               cardsReducidas.map(cardsReducidas => (
-                <div  className="card">
-                    <img src={cardsReducidas.img} className="card-img-top" alt={cardsReducidas.subtitle}></img>
+               cardsReduce.map(cardsReduce => (
+                <Card>
+                    <img src={cardsReduce.img} className="card-img-top" alt={cardsReduce.subtitle}></img>
                         <div className="card-body">
-                            <h3>{cardsReducidas.subtitle}</h3>
+                            <h3>{cardsReduce.subtitle}</h3>
                         </div>
                         <div className="card-footer">
-                            <h4>{cardsReducidas.cobro}</h4>
-                            <h4>{cardsReducidas.categoria}</h4>
+                            <h4>{cardsReduce.cobro}</h4>
+                            <h4>{cardsReduce.categoria}</h4>
                         </div>
-                </div>
+                </Card>
        
 
 
                 ))
                
-            }       
+            } 
+            </Link>      
     </div>
 
 
@@ -53,4 +58,4 @@ const Card = () =>{
 
  )
 }
-export default Card
+export default Cards

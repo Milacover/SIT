@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.scss';
 import Navbar from '../component/navbar/NavbarComponent'
-
+import Cards from '../component/Cards'
 
 const Home = () => {
   return (
@@ -17,6 +17,7 @@ const Home = () => {
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
     </div>
+    <Cards/>
     </>
   )
 }
