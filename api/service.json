@@ -1,0 +1,25 @@
+{
+    "services":[
+        {
+            "img": "src/assets/firstView.svg",
+            "subtitle": "Front-End Developer (React)",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum cumque ipsam obcaecati veniam doloribus molestias aperiam animi, numquam sint ullam explicabo eaque amet autem non ratione assumenda quis voluptatum recusandae!",
+            "categoria":"Diseño",
+            "cobro":"100€/h"  
+        },
+        {
+            "img": "src/assets/secondView.svg",
+            "subtitle": "Data Analist",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum cumque ipsam obcaecati veniam doloribus molestias aperiam animi, numquam sint ullam explicabo eaque amet autem non ratione assumenda quis voluptatum recusandae!",
+            "categoria":"Data Science & Analytycs",
+            "cobro":"80€/h"  
+        },
+        {
+            "img": "src/assets/thirdView.svg",
+            "subtitle": "UI/UX",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum cumque ipsam obcaecati veniam doloribus molestias aperiam animi, numquam sint ullam explicabo eaque amet autem non ratione assumenda quis voluptatum recusandae!",
+            "categoria":"Diseño",
+            "cobro":"70€/h"  
+        }
+    ]
+}
