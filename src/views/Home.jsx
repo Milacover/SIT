@@ -5,7 +5,7 @@ import Cards from '../component/Cards'
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Footer from '../component/Footer';
 
->>>>>>>>> Temporary merge branch 2
+
 
 const Home = ({checked, setChecked}) => {
   return (
@@ -22,9 +22,9 @@ const Home = ({checked, setChecked}) => {
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
     </div>
-<<<<<<<<< Temporary merge branch 1
+
     <Cards/>
-=========
+
 
     <ToggleButton
         className="bttBorder"
@@ -38,7 +38,7 @@ const Home = ({checked, setChecked}) => {
         Publicar Anuncio
       </ToggleButton>
       <Footer/>
->>>>>>>>> Temporary merge branch 2
+
     </>
   )
 }
