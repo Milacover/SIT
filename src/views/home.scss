@@ -40,8 +40,8 @@
     font-size: 1rem;
     font-weight: 300;
     margin: 0;
-}.bttBorder {
-    .btn-outline-primary {
+}.btn-check:checked+.btn {
+      background-color: $color-btt-blue-ligth;
       color: $color-btt-blue-ligth;
       border-color: $color-btt-blue-ligth;
       &:hover {
@@ -56,5 +56,36 @@
         border-color: $color-btt-blue-ligth;
         box-shadow: none;
       }
+      
+    }.containerBtt{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem;
+  }.searchForm {
+    width: 80vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .form-control {
+      border-radius: 20px;
+      border-color: #ced4da;
+      
     }
+  
+    .btn-outline-success {
+      border-radius: 20px;
+      margin-left: 10px;
+      width: 30vw;
+      color: $color-font-white;
+      font-weight: 500;
+      border-color: $color-btt-blue-medium;
+      background-color: $color-btt-blue-ligth;
+    }
+  }.searchContainer{
+    display: flex;
+    justify-content: space-evenly;
   }

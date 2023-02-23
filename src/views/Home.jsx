@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './home.scss';
 import Navbar from '../component/navbar/NavbarComponent';
 import ToggleButton from 'react-bootstrap/ToggleButton';
+import { Form, FormControl, Button } from 'react-bootstrap';
 
-
+ 
 
 const Home = ({checked, setChecked}) => {
   return (
@@ -17,12 +18,21 @@ const Home = ({checked, setChecked}) => {
         <h3 className='slogan'>Soluciones tecnológicas al alcance de un click</h3>
       </div>
     </div>
+    <div className='searchContainer'>
+    <Form className="searchForm">
+      <FormControl type="text" placeholder="Buscar anuncios" className="mr-sm-2" />
+      <Button variant="outline-success">Buscar</Button>
+    </Form>
+    </div>
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
+    
     </div>
 
+    <div className='containerBtt'>
+
     <ToggleButton
-        className="bttBorder"
+        className="boutline-primary"
         id="toggle-check"
         type="checkbox"
         variant="outline-primary"
@@ -32,6 +42,7 @@ const Home = ({checked, setChecked}) => {
       >
         Publicar Anuncio
       </ToggleButton>
+      </div>
     </>
   )
 }
