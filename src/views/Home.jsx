@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import './home.scss';
+<<<<<<< HEAD
 import Navbar from '../component/navbar/NavbarComponent';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Footer from '../component/Footer';
 
+=======
+import Navbar from '../component/navbar/NavbarComponent'
+import Cards from '../component/Cards'
+>>>>>>> card
 
 const Home = ({checked, setChecked}) => {
   return (
@@ -20,6 +25,7 @@ const Home = ({checked, setChecked}) => {
     <div className='titleAds'>
       <span>Todos los Anuncios</span>
     </div>
+<<<<<<< HEAD
 
     <ToggleButton
         className="bttBorder"
@@ -33,6 +39,9 @@ const Home = ({checked, setChecked}) => {
         Publicar Anuncio
       </ToggleButton>
       <Footer/>
+=======
+    <Cards/>
+>>>>>>> card
     </>
   )
 }

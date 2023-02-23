@@ -12,3 +12,15 @@ function App() {
     }
      
      export default App
+function App() {
+  
+  
+
+  return (
+    <div className="App">
+      <Router/>
+    </div>
+  )
+}
+
+export default App
