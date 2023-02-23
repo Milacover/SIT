@@ -1,5 +1,9 @@
 import { useForm } from "react-hook-form";
+import Footer from "../Footer";
+import NavbarComponent from "../navbar/NavbarComponent";
 import './form.scss'
+import { Link } from 'react-router-dom';
+import { FcLeft } from "react-icons/fc";
 
 function MyForm() {
   const {
@@ -12,10 +16,11 @@ function MyForm() {
       alert('formulario enviado');
       data.preventDefault();
     };
-   
-
  
   return (
+
+    <div><NavbarComponent />
+    <Link to='/'><FcLeft></FcLeft></Link>
     <form className="wrapper" onSubmit={handleSubmit(onSubmit)}>
         <h1 className="wrapper__title">Formulario</h1>
       <fieldset className="wrapper__content">
@@ -45,6 +50,8 @@ function MyForm() {
 
       </div>
     </form>
+    <Footer />
+    </div>
   );
 }
 export default MyForm;

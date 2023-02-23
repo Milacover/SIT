@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Logo from './../../assets/logo.png';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Footer from '../Footer';
 
 const NavbarComponent = () => {
   return (
@@ -21,6 +22,7 @@ const NavbarComponent = () => {
           </Navbar.Brand>
         </Container>
       </Navbar>
+      
     </>
   );
 }

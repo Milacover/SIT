@@ -1,5 +1,15 @@
 @import "/src/app.scss";
 
+a{
+  text-decoration: none;
+  svg{
+      width: 100%;
+      height: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -18,6 +28,7 @@
       align-items: center;
       flex-direction: column;
       margin-bottom: 8px;
+      width: 90%;
     }
 
     .wrapper__select {
@@ -41,6 +52,7 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
+    margin-top: 8px;
 
     .submit{
         background-color: #32936F;
@@ -64,9 +76,9 @@
     .reset:hover{
         background-color: white;
         color:black;
-    }
-    
-    
+    }    
 
     }
+
+    
 }

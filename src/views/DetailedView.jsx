@@ -4,6 +4,7 @@ import './detailedView.scss';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import { FcLeft } from "react-icons/fc";
+import Footer from '../component/Footer';
 
 const vistaDetallada =[
     {
@@ -48,10 +49,12 @@ function DetailedView() {
                             <h4>{vistaDetallada.categoria}</h4>
                         </div>
                     </Card>
+                    
                 ))
             }
         
-        <button><Link to='/' ><p className='contacta'>Contacta</p></Link></button>
+        <button><Link to='/Form' ><p className='contacta'>Contacta</p></Link></button>
+        <Footer />
     </div>
 
   )}
