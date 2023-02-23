@@ -59,7 +59,7 @@ function DetailedView() {
         <button><a href="">Contactar con el anunciante</a></button>
         
     </div>
-  )}
+  
 
 
 
