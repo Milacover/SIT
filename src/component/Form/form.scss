@@ -23,8 +23,17 @@
     .wrapper__select {
       display: flex;
       margin-bottom: 8px;
+      justify-content: center;
+      align-items: center;
     }
 
+    
+}
+.wrapper__descripcion{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-bottom: 5px;
 }
 .wrapper__buttons{
     display: flex;
