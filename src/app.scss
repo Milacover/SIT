@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$color-bg-gray: #EAE8E8;
+$color-bg-blue-dark: #243F6E;
+$color-btt-blue-medium: #5B77A6;
+$color-btt-blue-ligth: #18D0FD;
+$color-font-white: white;
+$color-font-dark: black;
+$color-font-blue-dark: #243F6E;
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-bg-gray;
+    font-family: 'Inter';
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $color-font-white
+}
