@@ -1,0 +1,63 @@
+@import "/src/app.scss";
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .wrapper__title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper__content {
+    input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 8px;
+    }
+
+    .wrapper__select {
+      display: flex;
+      margin-bottom: 8px;
+    }
+
+}
+.wrapper__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    .submit{
+        background-color: #32936F;
+        border:none;
+        border-radius: 5px;
+        color:white;
+        font-size: 16px;
+    }
+    .submit:hover{
+        background-color: white;
+        color:black;
+    }
+
+    .reset{
+        border:none;
+        background-color: #B12222;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+    }
+    .reset:hover{
+        background-color: white;
+        color:black;
+    }
+    
+    
+
+    }
+}

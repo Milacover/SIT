@@ -4,7 +4,7 @@ import App from './App'
 import './app.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import MyForm from './component/Form'
+import MyForm from '../src/component/Form/Form'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
