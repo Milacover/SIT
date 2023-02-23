@@ -24,11 +24,9 @@ const cardsReduce=[
     }
 ]
 
-
 const Cards = () =>{
 
-    return (
-   
+    return (   
 
 <div className="setCards">
     <Link to='/DetailedView'>
@@ -44,17 +42,12 @@ const Cards = () =>{
                             <h4>{cardsReduce.categoria}</h4>
                         </div>
                 </Card>
-       
-
 
                 ))
                
             } 
-            </Link>      
-    </div>
-
-
-
+    </Link>      
+</div>
 
  )
 }

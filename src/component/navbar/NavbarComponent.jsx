@@ -5,7 +5,6 @@ import Logo from './../../assets/logo.png';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-
 const NavbarComponent = () => {
   return (
     <>

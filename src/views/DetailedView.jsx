@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import { FcLeft } from "react-icons/fc";
 
-
 const vistaDetallada =[
     {
         img: 'src/assets/firstView.svg',
@@ -54,11 +53,9 @@ function DetailedView() {
             }
         
         <button><Link to='/' ><p className='contacta'>Contactar</p></Link></button>
-    </div>
-  
+        
+    </div>  
 
   )}
-
-
 
 export default DetailedView

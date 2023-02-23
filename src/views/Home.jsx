@@ -5,8 +5,6 @@ import Cards from '../component/Cards'
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Footer from '../component/Footer';
 
-
-
 const Home = ({checked, setChecked}) => {
   return (
     <>
@@ -25,7 +23,6 @@ const Home = ({checked, setChecked}) => {
 
     <Cards/>
 
-
     <ToggleButton
         className="bttBorder"
         id="toggle-check"
@@ -34,10 +31,11 @@ const Home = ({checked, setChecked}) => {
         checked={checked}
         value="1"
         onChange={(e) => setChecked(e.currentTarget.checked)}
-      >
+    >
         Publicar Anuncio
-      </ToggleButton>
-      <Footer/>
+    </ToggleButton>
+    
+    <Footer/>
 
     </>
   )

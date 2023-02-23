@@ -8,7 +8,8 @@ const Footer = () => {
     
         <footer className="container text-center text-sm-center bg-light ">
   
-            <section style={{backgroundColor: "#5b77a6"}}  className="row mt-12 d-flex justify-content-center justify-content-sm-between p-4 border-bottom">
+            <section style={{backgroundColor: "#5b77a6"}}  
+            className="row mt-12 d-flex justify-content-center justify-content-sm-between p-4 border-bottom">
     
                 <div  className="col-12 mx-auto mb-md-0 mb-4">
                     <a href="https://es.facebook.com" target="_blank" className="p-4">
@@ -44,7 +45,8 @@ const Footer = () => {
                 </div>
             </section>
 
-            <div style={{backgroundColor: "#5b77a6"}} className="text-center p-4"><AiOutlineCopyrightCircle /> SIT 2023        
+            <div style={{backgroundColor: "#5b77a6"}} className="text-center p-4">
+                <AiOutlineCopyrightCircle /> SIT 2023        
             </div>
         </footer>
     
