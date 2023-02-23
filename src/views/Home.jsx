@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './home.scss';
 import Navbar from '../component/navbar/NavbarComponent';
 import ToggleButton from 'react-bootstrap/ToggleButton';
-
+import Footer from '../component/Footer';
 
 
 const Home = ({checked, setChecked}) => {
@@ -32,6 +32,7 @@ const Home = ({checked, setChecked}) => {
       >
         Publicar Anuncio
       </ToggleButton>
+      <Footer/>
     </>
   )
 }

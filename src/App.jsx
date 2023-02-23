@@ -1,13 +1,14 @@
-import './App.css'
-import Footer from './component/Footer'
+import Router from './router/Router';
+import './app.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
 
-  return (
-    <div>
-      <Footer />
-    </div>
-  )
-}
-
-export default App
+function App() {  
+  return (   
+     <div className="App">      
+     <Router/>    </div>  
+     
+     )
+    }
+     
+     export default App
