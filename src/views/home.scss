@@ -1,0 +1,43 @@
+@import '../app.scss';
+
+
+.imageAbout{
+    background-image: url(src/assets/slogandos.png);
+    background-position: bottom right;
+    height: 17vh;
+    width: 50vw;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}.aboutUsContent{
+    height: 17vh;
+    width: 50vw;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}.titleAbout{
+    color: $color-font-blue-dark;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}.titleAds{
+    color: $color-font-blue-dark;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    height: 10vh;
+    width: 50vw;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.slogan{
+    color: $color-font-blue-dark;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
