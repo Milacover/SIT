@@ -7,4 +7,20 @@
     min-width: 2vw;
 }.navbarContainer{
     background-color: $color-bg-blue-dark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    width: 100%; 
+    z-index: 999;
+    
+
+}.iconHamburg{
+    color: $color-font-white;
+    
+}.optionsHamburg{
+    background-color: $color-btt-blue-medium;
+
+
 }

@@ -1,78 +1,46 @@
-import React from 'react'
-import { AiOutlineCopyrightCircle } from "react-icons/ai";
+import React from 'react';
 import { FcAddressBook, FcHome, FcPhone } from "react-icons/fc";
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import './footer.scss';
 
 const Footer = () => {
   return (
-    <div>
-    
-        <footer className=" text-center text-sm-center bg-light ">
-  
-            {/* <section style={{backgroundColor: "#5b77a6"}}  
-            className="row mt-12 d-flex justify-content-center justify-content-sm-between p-4 border-bottom">
-    
-                <div  className="col-12 mx-auto mb-md-0 mb-4">
-                    <a href="https://es.facebook.com" target="_blank" className="p-4">
-                    <img src="./src/assets/facebook.svg" alt="Facebook" width={20}/>
-                    </a>
-                    <a href="https://twitter.com/?lang=ES" target="_blank" className="p-4">
-                    <img src="./src/assets/twitter.svg" alt="Twitter" width={20}/>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" className="p-4">
-                    <img src="./src/assets/instagram.svg" alt="Instagram" width={20}/>
-                    </a>
-                    <a href="https://es.linkedin.com" target="_blank" className="p-4">
-                    <img src="./src/assets/linkedin.svg" alt="Linkedin" width={20}/>
-                    </a>      
-                </div>
-    
-            </section> */}
-  
-            <section style={{backgroundColor: "#5b77a6"}}>
-                <div className="container text-center text-md-center mt-5 border-bottom">      
-                <div  className="row mt-8">
-        
-                    <div  className="col-8 mx-auto mb-md-0 mb-4">
-                        <h3 className="text-uppercase fw-bold mb-4">SIT</h3>
-                        <p className='fw-bold'>Servicio Integrador Tecnológico</p>
-                        <p><FcHome /> C/ El Caminito a ninguna parte, 8</p>
-                        <p><FcAddressBook />info@sit.com</p>         
-                        <p> 29345 Madrid</p>
-                        <p><FcPhone /> + 34 91 123 45 67</p>
-                    </div>
-        
-                </div>
-                </div>
-            </section>
+    <footer className="footerContainer">
+      <section className="footerContainer__section1">
+        <div className="footerContainer__section1__logo">
+          <h3 className="footerContainer__section1__logo__title">SIT</h3>
+          <p className="footerContainer__section1__logo__subtitle">Servicio Integrador Tecnológico</p>
+        </div>
+        <div className="footerContainer__section1__info">
+          <p><FcHome /> C/ El Caminito a ninguna parte, 8 
+          <br /> 29345 Madrid
+          <br /><FcAddressBook/>info@sit.com  <br /><FcPhone /> +34 91 123 45 67 </p>
+        </div>
+      </section>
 
-            <div style={{backgroundColor: "#5b77a6"}} className="text-center p-4">
-                <AiOutlineCopyrightCircle /> SIT 2023        
-            </div>
-            <section   
-            className="row mt-12 d-flex justify-content-center justify-content-sm-between p-4 border-bottom">
-    
-                <div  className="col-12 mx-auto mb-md-0 mb-4">
-                    <a href="https://es.facebook.com" target="_blank" className="p-4">
-                    <img src="./src/assets/facebook.svg" alt="Facebook" width={20}/>
-                    </a>
-                    <a href="https://twitter.com/?lang=ES" target="_blank" className="p-4">
-                    <img src="./src/assets/twitter.svg" alt="Twitter" width={20}/>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" className="p-4">
-                    <img src="./src/assets/instagram.svg" alt="Instagram" width={20}/>
-                    </a>
-                    <a href="https://es.linkedin.com" target="_blank" className="p-4">
-                    <img src="./src/assets/linkedin.svg" alt="Linkedin" width={20}/>
-                    </a>      
-                </div>
-    
-            </section>
-        </footer>
-    
-    </div>
+      <section className="footerContainer__section2">
+        <div className="footerContainer__section2__icons">
+          <a href="https://es.facebook.com" target="_blank" rel="noopener noreferrer" className="footerContainer__section2__icon">
+            <AiOutlineFacebook className='iconSocial'/>
+          </a>
+          <a href="https://twitter.com/?lang=ES" target="_blank" rel="noopener noreferrer" className="footerContainer__section2__icon">
+            <AiOutlineTwitter className='iconSocial'/>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="footerContainer__section2__icon">
+            <AiOutlineInstagram className='iconSocial'/>
+          </a>
+          <a href="https://es.linkedin.com" target="_blank" rel="noopener noreferrer" className="footerContainer__section2__icon">
+            <AiOutlineLinkedin className='iconSocial'/>
+          </a>      
+        </div>
+      </section>
 
+      <div className="footerContainer__section3">
+        <p className="footerContainer__section3__text">SIT 2023</p>
+      </div>
+    </footer>
   )
 }
 
-export default Footer
+export default Footer;
+

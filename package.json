@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
+
     "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^1.3.3",
     "boostrap": "^2.0.0",
@@ -21,7 +25,8 @@
     "react-fa-icon": "^0.1.4",
     "react-hook-form": "^7.43.2",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.8.1",
+    "reactstrap": "^9.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

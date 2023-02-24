@@ -2,7 +2,11 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../views/Home';
 import DetailedView from '../views/DetailedView';
-import Form from '../component/Form/Form';
+
+import FormAds from '../views/FormAds';
+
+
+import Form from '../views/Form';
 
 const Router = () => {
   return (
@@ -10,8 +14,12 @@ const Router = () => {
         <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/DetailedView' element={<DetailedView/>}></Route>
+
+            <Route path='/formAds' element={<FormAds/>}></Route>
+
             <Route path='/Form' element={<Form />}></Route>
            
+
         </Routes>
     </BrowserRouter>
   )

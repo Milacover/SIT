@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAE8E8;
+  font-family: "Inter";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerContainer {
+  background-color: #5B77A6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 21vh;
+  margin: 0;
+}
+
+.footerContainer__section2__icons {
+  display: flex;
+  justify-content: space-between;
+  height: 3vh;
+  background-color: white;
+}
+
+.footerContainer__section3 {
+  height: 1vh;
+}
+
+.footerContainer__section1__info {
+  height: 8vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footerContainer__section1__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footerContainer__section2 {
+  height: 4vh;
+}
+
+.iconSocial {
+  height: 2.5vh;
+  margin: 0;
+}
+
+.footerContainer__section1 {
+  display: flex;
+  justify-content: center;
+  height: 12vh;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}/*# sourceMappingURL=footer.css.map */
