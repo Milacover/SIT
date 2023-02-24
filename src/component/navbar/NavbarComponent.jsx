@@ -26,7 +26,7 @@ const NavbarComponent = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='optionsHamburg'>
             <Link to='/'><Nav href='#home'>Home</Nav></Link>
-            <Link to='/'><Nav href='#publicar-anuncio'>Publicar Anuncio</Nav></Link>
+            <Link to='/FormAds'><Nav href='#publicar-anuncio'>Publicar Anuncio</Nav></Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

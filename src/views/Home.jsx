@@ -3,7 +3,7 @@ import './home.scss';
 import Navbar from '../component/navbar/NavbarComponent'
 import Cards from '../component/Cards'
 import ToggleButton from 'react-bootstrap/ToggleButton';
-
+import { Link } from 'react-router-dom';
 import { Form, FormControl, Button } from 'react-bootstrap';
 
  
@@ -41,8 +41,9 @@ const Home = ({checked, setChecked}) => {
         checked={checked}
         value="1"
         onChange={(e) => setChecked(e.currentTarget.checked)}
-    >
-        Publicar Anuncio
+    > <Link to='/FormAds'>
+    Publicar Anuncio
+    </Link>
       </ToggleButton>
 
 
